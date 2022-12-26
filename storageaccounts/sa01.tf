@@ -5,7 +5,7 @@ provider "azurerm" {
 }
 
 module "db01" {
-  source                      = "../"
+  source                      = "../modules"
   rg                          = "my-tf-rg"
   location                    = "westeurope"
   storagename                 = "myterraformsa61196"
