@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "tf-rg" {
 }
 
 resource "azurerm_storage_account" "my-tf-sa" {
-  name                     = "storageaccountname1"
+  name                     = "storageaccountname3"
   resource_group_name      = azurerm_resource_group.tf-rg.name
   location                 = azurerm_resource_group.tf-rg.location
   account_tier             = "Standard"
