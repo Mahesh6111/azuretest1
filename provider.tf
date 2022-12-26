@@ -9,9 +9,9 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = local.subscription_id
-  client_id       = local.client_id
-  client_secret   = local.client_secret
-  tenant_id       = local.tenant_id
+  subscription_id = env.subscription_id
+  client_id       = env.client_id
+  client_secret   = env.client_secret
+  tenant_id       = env.tenant_id
 
 }
