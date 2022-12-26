@@ -1,5 +1,5 @@
 module "db01" {
-  source                      = ".."
+  source                      = "../"
   rg                          = "my-tf-rg"
   location                    = "westeurope"
   storagename                 = "myterraformsa61196"
