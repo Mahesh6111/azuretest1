@@ -10,6 +10,10 @@ variable "tenant_id" {
   description = "tenant id"
 }
 
+variable "subscription_id" {
+  description = "Subscription Ii"
+}
+
 variable "rg" {
   description = "Resource Group"
 }
