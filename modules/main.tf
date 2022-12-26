@@ -14,6 +14,7 @@ provider "azurerm" {
   client_secret   = "LZJ8Q~yPSeFQKq1MpUMpyhOBJ0nRFW5r5u7M_c0c"
   tenant_id       = "54227b23-8c19-44ca-8b05-48d4190f5ef5"
   subscription_id = var.subscription_id
+  skip_provider_registration = "true"
 }
 
 resource "azurerm_resource_group" "tf-rg" {
