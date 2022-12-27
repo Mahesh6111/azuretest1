@@ -1,4 +1,4 @@
-module "sa001" {
+module "sa002" {
   source                      = "../modules"
   rg                          = "my-tf-rg1"
   location                    = "westeurope"
