@@ -1,5 +1,5 @@
 variable "client_id" {
-  description = "client_id
+  description = "client_id"
 }
 
 variable "client_secret" {
