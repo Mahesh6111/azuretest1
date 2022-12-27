@@ -13,15 +13,3 @@ variable "storagename" {
 variable "subscription01" {
   description = "subscription_id for 01"
 }
-
-variable "client_id" {
-  description = "client_id"
-}
-
-variable "client_secret" {
-  description = "client_secret"
-}
-
-variable "tenant_id" {
-  description = "tenant_id"
-}
