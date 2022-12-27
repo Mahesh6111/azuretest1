@@ -10,3 +10,7 @@ variable "storagename" {
   description = "Location of Storage account"
 }
 
+variable "subscription01" {
+  description = "subscription_id for 01"
+}
+
