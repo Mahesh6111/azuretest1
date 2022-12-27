@@ -9,6 +9,18 @@ resource "azurerm_storage_account" "my-tf-sa1" {
   location                 = azurerm_resource_group.tf-rg.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
+  provider                  = azurerm.sub01
+  tags = {
+    environment = "staging"
+  }
+}
+
+resource "azurerm_storage_account" "my-tf-sa1-p2" {
+  name                     = var.storagename
+  resource_group_name      = azurerm_resource_group.tf-rg.name
+  location                 = azurerm_resource_group.tf-rg.location
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
   provider                  = azurerm.sub02
   tags = {
     environment = "staging"
