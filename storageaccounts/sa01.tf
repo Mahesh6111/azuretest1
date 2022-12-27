@@ -4,6 +4,7 @@ provider "azurerm" {
   client_secret   = var.client_secret
   tenant_id       = var.tenant_id
   subscription_id = "3db649d5-9162-430c-ba6d-afeacf2194ec"
+  skip_provider_registration = "true"
   features {}
 }
 
