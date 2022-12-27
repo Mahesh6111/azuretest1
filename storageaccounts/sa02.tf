@@ -3,5 +3,6 @@ module "sa002" {
   rg                          = "my-tf-rg1"
   location                    = "westeurope"
   storagename                 = "myterraformsa61196c"
+  subscription01              = "3db649d5-9162-430c-ba6d-afeacf2194ec"
   subscription02              = "3db649d5-9162-430c-ba6d-afeacf2194ec"
 }
