@@ -3,7 +3,5 @@ module "sa001" {
   rg                          = "my-tf-rg1"
   location                    = "westeurope"
   storagename                 = "myterraformsa61196a"
-  providers = {
-    azurerm = azurerm.sub01
-  }
+  subscription_id             = "3db649d5-9162-430c-ba6d-afeacf2194ec"
 }
