@@ -1,7 +1,5 @@
 provider "azurerm" {
+  alias           = "sub01"
+  subscription_id = "3db649d5-9162-430c-ba6d-afeacf2194ec"
   features {}
-  client_id       = var.client_id
-  client_secret   = var.client_secret
-  tenant_id       = var.tenant_id
-  skip_provider_registration = "true"
 }
