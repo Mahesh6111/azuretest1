@@ -14,7 +14,7 @@ variable "subscription01" {
   description = "subscription_id for 01"
 }
 
-variable "subscription01" {
+variable "subscription02" {
   description = "subscription_id for 01"
 }
 
