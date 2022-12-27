@@ -4,4 +4,5 @@ module "sa001" {
   location                    = "westeurope"
   storagename                 = "myterraformsa61196b"
   subscription01              = "3db649d5-9162-430c-ba6d-afeacf2194ec"
+  subscription02              = "3db649d5-9162-430c-ba6d-afeacf2194ec"
 }
