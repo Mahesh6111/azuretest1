@@ -1,8 +1,3 @@
-
-variable "subscription_id" {
-  description = "Subscription Ii"
-}
-
 variable "rg" {
   description = "Resource Group"
 }
